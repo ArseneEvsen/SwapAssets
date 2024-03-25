@@ -1,15 +1,15 @@
 # SwapAssets development :
 ### Made so far :
-  - Smart contract conception/development/tests
+  - Smart contract -> conception/development/tests
 
 ### Under development :
   - 3D assets Launcher [Unity]
   - SwapAssets Dapp [VueJS]
 
 # What is SwapAssets ?
-### SwapAssets is a web3 tokenization project - it's goal is to manage (buy/sell/trade/) NFT assets in the blockchain.
+### SwapAssets is a web3 tokenization project - it's goal is to manage (buy/sell/trade/) NFT assets in the blockchain. It can divide on-chain assets into multiple fractions.
 
-## The solution :
+## 3D Launcher :
 ### With the 3D launcher made with Unity (that can be download in the "SwapAssets-Project" folder), users can connect their wallet with their mobile app wallet, through a QR Code and then start buy, sell and trade assets in the SwapAssets smart contract exchange.
 
 ## Smart Contract Exchange
