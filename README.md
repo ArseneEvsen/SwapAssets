@@ -1,3 +1,5 @@
+![SwapAssets Logo](Ressources/logo.png "SwapAssets Logo")
+
 # SwapAssets development :
 ### Made so far :
   - Smart contract -> conception/development/tests
