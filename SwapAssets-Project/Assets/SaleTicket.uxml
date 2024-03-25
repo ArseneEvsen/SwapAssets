@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; height: 191px; font-size: 16px; -unity-font-style: bold;">
+        <ui:VisualElement name="sale-ticket" style="align-items: flex-start;">
+            <ui:Label text="Ticket number" display-tooltip-when-elided="true" name="ticket-number" style="align-items: center; justify-content: space-between; align-self: center;" />
+        </ui:VisualElement>
+        <ui:Button text="SELECT" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="select_button" style="align-items: auto; justify-content: flex-start; flex-direction: column; align-self: center; width: 30%; background-color: rgb(207, 156, 71); -unity-font-style: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

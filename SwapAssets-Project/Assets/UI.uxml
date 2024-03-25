@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="NFT_INFOS" style="flex-grow: 1; position: absolute; left: 75%; top: 25%; width: 25%; height: 55%; background-color: rgba(105, 154, 255, 0.62); -unity-text-outline-color: rgba(56, 56, 56, 0.6);">
+        <ui:Label tabindex="-1" text="NFT INFOS " parse-escape-sequences="true" display-tooltip-when-elided="true" name="nft_infos_label" style="font-size: 25px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:VisualElement name="TOKEN_ID" style="flex-grow: 1; align-items: flex-start; justify-content: flex-start; align-self: auto; flex-wrap: nowrap; height: 101px;">
+            <ui:Label tabindex="-1" text="Token Id :" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 18px; -unity-font-style: normal;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="false" display-tooltip-when-elided="true" name="token_id_label" style="font-size: 18px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ASSET_TYPE" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Asset type :" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 18px; -unity-font-style: normal;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="asset_type_label" enable-rich-text="false" style="font-size: 18px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="STATUS" style="flex-grow: 1; visibility: visible; display: flex; -unity-text-align: upper-center;">
+            <ui:Label tabindex="-1" text="You own this NFT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="isOwner" style="font-size: 18px; -unity-text-align: upper-center; -unity-font-style: normal; color: rgb(224, 44, 39); display: none;" />
+        </ui:VisualElement>
+        <ui:Button text="SHOW SALES" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sales_list_action" style="font-size: 18px; color: rgb(0, 0, 0); background-color: rgb(209, 217, 34); display: none;" />
+        <ui:VisualElement name="SELL_AREA" style="flex-grow: 1; display: none;">
+            <ui:Label tabindex="-1" text="Amount of shares you can sell :" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="amout_share_to_sell" style="-unity-font-style: bold;" />
+            <ui:Button text="CREATE A SELL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sell_button" style="background-color: rgb(197, 47, 46); font-size: 14px; -unity-font-style: bold; color: rgb(255, 255, 255); position: relative;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="SALE_DETAILS" style="flex-grow: 1; position: absolute; top: 7%; left: 35%; width: 30%; height: 40%; background-color: rgba(105, 154, 255, 0.62); visibility: visible; display: none;">
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="token_id" focusable="false" />
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; color: rgb(118, 149, 212);">
+            <ui:Label tabindex="-1" text="Ticket number :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ticket_number_label" style="-unity-font-style: normal; color: rgb(0, 0, 0); font-size: 18px; height: 30px;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ticket_number_value" style="color: rgb(0, 0, 0); font-size: 18px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; color: rgb(118, 149, 212);">
+            <ui:Label tabindex="-1" text="Seller address :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="seller_label" style="-unity-font-style: normal; color: rgb(0, 0, 0); font-size: 18px; height: 30px;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="seller_address_value" style="color: rgb(0, 0, 0); font-size: 15px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; color: rgb(118, 149, 212);">
+            <ui:Label tabindex="-1" text="Shares for sale :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="shares_label" style="-unity-font-style: normal; color: rgb(0, 0, 0); font-size: 18px; height: 30px;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="shares_value" style="color: rgb(0, 0, 0); font-size: 18px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Price :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="price_label" style="font-size: 18px;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="price_value" enable-rich-text="false" style="font-size: 18px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:Button text="Buy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="buy_button" style="justify-content: flex-start; align-items: auto; flex-direction: column-reverse; align-self: auto; font-size: 18px; -unity-font-style: bold; background-color: rgb(60, 178, 76);" />
+    </ui:VisualElement>
+    <ui:ListView focusable="true" name="SALES_DISPLAY" style="position: absolute; left: 5%; top: 25%; width: 20%; height: 50%; color: rgba(0, 0, 0, 0.62); background-color: rgba(105, 154, 255, 0.62); flex-direction: column-reverse; display: none; visibility: visible;" />
+    <ui:VisualElement name="REFRESH" style="flex-grow: 1; position: absolute; left: 85%; top: 85%; width: 10%; height: 5%; background-color: rgba(105, 154, 255, 0.62);">
+        <ui:Button text="REFRESH" parse-escape-sequences="true" display-tooltip-when-elided="true" name="refresh_button" style="background-color: rgb(143, 147, 143); color: rgb(0, 72, 221);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="SALE_CREATION" style="flex-grow: 1; position: absolute; left: 25%; top: 30%; right: 40%; width: 40%; height: 40%; background-color: rgba(105, 154, 255, 0.62); display: none;">
+        <ui:Label tabindex="-1" text="List to exchange" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="font-size: 18px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:TextField picking-mode="Ignore" label="Amount of shares to sell :" value="filler text" name="amount_shares" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:TextField picking-mode="Ignore" label="Enter your price (only integer allowed)" value="filler text" name="price_value" />
+        </ui:VisualElement>
+        <ui:Button text="CANCEL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="cancel_sale" style="margin-bottom: 20px; font-size: 16px; justify-content: flex-end; align-self: center; background-color: rgb(245, 122, 24);" />
+        <ui:Button text="CREATE THE SALE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="create_sale" style="margin-bottom: 20px; font-size: 16px; align-self: center; background-color: rgb(89, 197, 88);" />
+    </ui:VisualElement>
+</ui:UXML>
