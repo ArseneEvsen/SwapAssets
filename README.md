@@ -17,6 +17,7 @@ With the 3D launcher made with Unity (that can be download in the "SwapAssets-Pr
 
 ## Smart Contract Exchange
 To work, SwapAssets use the blockchain with a smart contract. The smart contract not only act as a traditional exchange, it can actually divide an NFT into multiple fractions, to make the NFT ownable by multiple owners.
+The smart contract is working properly, has been tested with Truffle and can be found in the file name "Smart Contract".
 
 ## Smart Contract test quality
 To ensure the quality of the smart contract, multiple tests has been made with Truffle tool. These tests can be found in the folder "smart-contract-tests".
