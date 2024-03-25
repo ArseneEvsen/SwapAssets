@@ -21,3 +21,5 @@ To ensure the quality of the smart contract, multiple tests has been made with T
 
 ## SwapAssets users stories
 The solution has been created with the help of the agile framework. All the users stories can be found in the folder "users-stories".
+![Users Stories](Ressources/solve.png "Example of users stories")
+
