@@ -2,7 +2,8 @@
 
 # SwapAssets development :
 ### Made so far :
-  - Smart contract -> conception/development/tests
+  - Smart contract -> conception/development
+  - Smart contract tests -> 23 tests made with TruffleJS
 
 ### Under development :
   - 3D assets Launcher [Unity]
