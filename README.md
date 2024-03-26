@@ -16,6 +16,8 @@ SwapAssets is a web3 tokenization project - it's goal is to manage (buy/sell/tra
 ![3D Launcher](Ressources/LauncherSwapAssets.png "SwapAssets Launcher")
 With the 3D launcher made with Unity (that can be download in the "SwapAssets-Project" folder), users can connect their wallet with their mobile app wallet, through a QR Code and then start buy, sell and trade assets in the SwapAssets smart contract exchange.
 
+Video that present the project (part1) : https://youtu.be/qaHHLDTYIO4
+
 ## Smart Contract Exchange
 To work, SwapAssets use the blockchain with a smart contract. The smart contract not only act as a traditional exchange, it can actually divide an NFT into multiple fractions, to make the NFT ownable by multiple owners.
 The smart contract is working properly, has been tested with Truffle and can be found in the file name "Smart Contract".
