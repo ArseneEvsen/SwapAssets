@@ -20,7 +20,7 @@ To work, SwapAssets use the blockchain with a smart contract. The smart contract
 The smart contract is working properly, has been tested with Truffle and can be found in the file name "Smart Contract".
 
 ## Smart Contract test quality
-To ensure the quality of the smart contract, multiple tests has been made with Truffle tool. These tests can be found in the folder "smart-contract-tests".
+To ensure the quality of the smart contract, multiple tests has been made with Truffle tool. These tests can be found in the folder "smart-contract-tests-truffleJS".
 
 ## SwapAssets users stories
 The solution has been created with the help of the agile framework. All the users stories can be found in the folder "users-stories".
