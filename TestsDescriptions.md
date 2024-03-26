@@ -35,3 +35,48 @@ When a sale occurs, there is four scenarios :
 	- The seller is still the owner and the buyer is a new owner 
 	- the seller is still the owner and the buyer is not a new owner
 
+##### Test 3A :
+Case : If the buyer is a new owner of the NFT && If the seller is still an owner of the NFT
+
+We test that : 
+	- seller shares minus + sharesSelling
+	- seller still isOwner = true
+	- buyer shares/sharesSelling = sale ticket stats
+	- buyer = isOwner == true
+	- OwnerList[] -> buyer added
+	- NftOwned[] -> tokenId added
+
+##### Test 3B :
+Case : If the buyer is a new owner of the NFT && If the seller is not an owner anymore
+
+We test that :
+	- seller shares/sharesSelling = 0
+	- seller isOwner = false
+	- buyer shares/sharesSelling = sale ticket stats
+	- buyer = isOwner == true
+	- OwnerList[] -> seller remove 
+	- OwnerList[] -> buyer added
+	- NftOwned[] -> seller remove
+	- NftOwned[] -> tokenId added
+
+##### Test 3C :
+Case : If the buyer is already an owner of the NFT && If the seller is not an owner anymore 
+
+We test that : 
+	- seller shares/sharesSelling = 0
+	- seller isOwner = false
+	- buyer shares/sharesSelling = base + sale ticket stats
+	- buyer = isOwner == true
+	- OwnerList[] -> seller remove
+	-  NftOwned[] -> seller remove
+
+##### Test 3D :
+Case : If the buyer is already an owner && If the seller is still an owner of the NFT
+
+We test that :
+	- seller shares/sharesSelling = minus sale ticket stats
+	- seller still isOwner = true
+	- buyer shares/sharesSelling = base + sale ticket stats
+	- buyer = isOwner == true
+
+
