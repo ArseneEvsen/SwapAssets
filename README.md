@@ -11,6 +11,7 @@
 
 # What is SwapAssets ?
 SwapAssets is a web3 tokenization project - it's goal is to manage (buy/sell/trade/) NFT assets in the blockchain. It can divide on-chain assets into multiple fractions.
+To have a better overview of the project, please read the conception document.
 
 ## SwapAssets 3D Launcher :
 ![3D Launcher](Ressources/LauncherSwapAssets.png "SwapAssets Launcher")
@@ -27,7 +28,10 @@ The smart contract is working properly, has been tested with Truffle and can be 
 To ensure the quality of the smart contract, multiple tests has been made with Truffle tool. These tests can be found in the folder "smart-contract-test-truffleJS".
 
 ## SwapAssets user stories
-![Users Stories](Ressources/solve.png "Example of users stories")
+![User Stories](Ressources/solve.png "Example of user stories")
 The solution has been created with the help of the agile framework. All the users stories can be found in the file "user-stories".
+
+## Architecture
+![Architecture](Ressources/SwapAssets Architecture.png "SwapAssets Architecture")
 
 
