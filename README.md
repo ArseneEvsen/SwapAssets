@@ -10,8 +10,14 @@
   - SwapAssets Dapp [VueJS]
 
 # What is SwapAssets ?
-SwapAssets is a web3 tokenization project - it's goal is to manage (buy/sell/trade/) NFT assets in the blockchain. It can divide on-chain assets into multiple fractions.
-To have a better overview of the project, please read the conception document.
+SwapAssets is a web3 tokenisation project of real estate assets.
+In the backend, it’s using the technologie of blockchain and a smart 
+contract in it, to tokenize the real estate assets in the form of NFTs.
+
+The smart contract manage the life cycle of these NFTs, such as :
+- buy 
+- sell 
+- fractionation
 
 ## SwapAssets 3D Launcher :
 ![3D Launcher](Ressources/LauncherSwapAssets.png "SwapAssets Launcher")
@@ -33,5 +39,13 @@ The solution has been created with the help of the agile framework. All the user
 
 ## Architecture
 ![Architecture](Ressources/SwapAssets_Architecture.png "SwapAssets Architecture")
+On the frontend, the project use an 3D engine to gives at users an overview 
+of all the actual assets, in a given area.
+
+In SwapAssets, users can :
+- select an NFTs to get their infos.
+- create a sale ticket to list their NFTs on the exchange with the 
+conditions of their choice : price and the shares to sell.
+- buy a sale ticket of an NFT to become the or one of the owners.
 
 
