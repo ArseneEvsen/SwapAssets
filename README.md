@@ -32,6 +32,6 @@ To ensure the quality of the smart contract, multiple tests has been made with T
 The solution has been created with the help of the agile framework. All the users stories can be found in the file "user-stories".
 
 ## Architecture
-![Architecture](Ressources/SwapAssets Architecture.png "SwapAssets Architecture")
+![Architecture](Ressources/SwapAssets_Architecture.png "SwapAssets Architecture")
 
 
