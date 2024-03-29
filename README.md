@@ -10,6 +10,7 @@
   - SwapAssets Dapp [VueJS]
 
 # What is SwapAssets ?
+
 SwapAssets is a web3 tokenisation project of real estate assets.
 In the backend, it’s using the technologie of blockchain and a smart 
 contract in it, to tokenize the real estate assets in the form of NFTs.
@@ -19,6 +20,8 @@ The smart contract manage the life cycle of these NFTs, such as :
 - sell 
 - fractionation
 
+To have a better overview of the project, please read the "conception document".
+
 ## SwapAssets 3D Launcher :
 ![3D Launcher](Ressources/LauncherSwapAssets.png "SwapAssets Launcher")
 With the 3D launcher made with Unity (that can be download in the "SwapAssets-Project" folder), users can connect their wallet with their mobile app wallet, through a QR Code and then start buy, sell and trade assets in the SwapAssets smart contract exchange.
@@ -26,6 +29,7 @@ With the 3D launcher made with Unity (that can be download in the "SwapAssets-Pr
 Video that present the project (part1) : https://youtu.be/qaHHLDTYIO4
 
 ## Smart Contract Exchange
+
 To work, SwapAssets use the blockchain with a smart contract. The smart contract not only act as a traditional exchange, it can actually divide an NFT into multiple fractions, to make the NFT ownable by multiple owners.
 The smart contract is working properly, has been tested with Truffle and can be found in the file name "Smart Contract".
 
