@@ -7,7 +7,7 @@
 
 ### Under development :
   - 3D assets Launcher [Unity]
-  - SwapAssets Dapp [VueJS]
+  - SwapAssets Dapp [ReactJS]
 
 # What is SwapAssets ?
 
