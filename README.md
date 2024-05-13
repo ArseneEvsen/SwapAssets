@@ -26,7 +26,6 @@ To have a better overview of the project, please read the "conception document".
 ![3D Launcher](Ressources/LauncherSwapAssets.png "SwapAssets Launcher")
 With the 3D launcher made with Unity (that can be download in the "SwapAssets-Project" folder), users can connect their wallet with their mobile app wallet, through a QR Code and then start buy, sell and trade assets in the SwapAssets smart contract exchange.
 
-Video that present the project (part1) : https://youtu.be/qaHHLDTYIO4
 
 ## Smart Contract Exchange
 
